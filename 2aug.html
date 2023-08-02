@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border-radius: 50%;
+            border: 2px solid black;
+        }
+        .myimage{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            transition: 5s;
+        }
+        .myimage:hover{
+            transform: scale(0.5);
+            /* transform: rotate(90deg); */
+        }
+        .mybutton{
+            background-color: aqua;
+            color: white;
+            border: none;
+            padding: 5px 20px;
+            border-radius: 5px;
+            /* transition: all 0.5s; */
+        }
+        .mybutton:hover{
+            background-color: red;
+            border-radius: 0px;
+            transform: rotate(90deg);
+        }
+        
+    </style>
+</head>
+<body> 
+    <img src="pic1.jpeg" class="myimage">
+    <div class="box">
+    </div>
+    <button class="mybutton">Home</button>
+
+</body>
+</html>
