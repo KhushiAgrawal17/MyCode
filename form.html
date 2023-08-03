@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal details</legend>
+        <label for="name">Name :</label>
+<input type="text" id="name" placeholder="Enter Your Full Name" maxlength="6" >
+<br><br>
+<label for="pass">Password :</label>
+<input type="password" id="pass">
+<br><br>
+<label for="mail">Email:</label>
+<input type="email" id="mail">
+<br><br>
+<input type="file" multiple accept="video/*">
+<br><br>
+<!-- <input type="image"> in this image behave as submit button -->
+<label for="male">Male</label>
+<input type="radio" id="male" name="gender">
+<label for="female">Female</label>
+<input type="radio" id="female" name="gender">
+<br><br>
+<!-- we use checkbox in place of radio for multiple choices  -->
+<select>
+    <optgroup label="transport">
+    <option>Car</option>
+    <option>Bus</option>
+    <option>Truck</option>
+    </optgroup>
+    <optgroup label="transport type 2">
+        <option>udne wali Car</option>
+        <option>udne wali Bus</option>
+        <option>udne wali Truck</option>
+        </optgroup>
+        
+    </select>
+<br><br>
+<textarea></textarea>
+<br><br>
+<input type="date" min="2023-07-31" max="2023-11-10">
+<br><br>
+<input type="tel" pattern="[9]"> 
+<input type="reset">
+
+<input type="submit" value="Login" >
+
+</fieldset>
+    </form>
+</body>
+</html>
+<!-- readonly - only read the text
+required 
+disabled - disable the input field 
+accept is used to select file type which is image,video -->
