@@ -1,0 +1,20 @@
+.A{
+    border: 6px solid black;
+    width: 485px;
+    height: 485px;
+    padding-top: 5px;
+    padding-left: 5px;
+    
+}
+.pink{
+    width: 60px;
+    height: 60px;
+    background-color: pink;
+    float: left;
+}
+.black{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    float: left;
+}
